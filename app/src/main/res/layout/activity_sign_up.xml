@@ -14,9 +14,10 @@
         android:layout_height="wrap_content"
         android:src="@drawable/ic_main_logo"
         android:layout_centerHorizontal="true"
-        android:layout_marginTop="120dp"/>
+        android:layout_marginTop="60dp"/>
 
     <TextView
+        android:id="@+id/tv_sign_up"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
         android:text="@string/sign_up"
@@ -28,11 +29,91 @@
         android:layout_centerHorizontal="true"/>
 
     <TextView
+        android:id="@+id/tv_txt_sign_up"
         android:layout_width="wrap_content"
-        android:layout_height="wrap_content"/>
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/txt_sign_up"
+        android:layout_below="@+id/tv_sign_up"
+        android:layout_centerHorizontal="true"
+        android:textColor="@color/white"
+        android:textSize="12sp"/>
 
+    <Button
+        android:id="@+id/btn_facebook"
+        style="@style/ButtonWhite"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="76dp"
+        android:layout_centerHorizontal="true"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:paddingStart="36dp"
+        android:paddingEnd="36dp"
+        android:drawablePadding="14dp"
+        android:drawableStart="@drawable/ic_facebook"
+        android:layout_below="@id/tv_txt_sign_up"
+        android:text="@string/txt_facebook"
+        android:fontFamily="@font/poppins_medium"
+        android:textAllCaps="false"
+        android:textColor="@color/colorPrimary"/>
 
+    <Button
+        android:id="@+id/btn_sign_up_email"
+        style="@style/ButtonBordered"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="32dp"
+        android:paddingTop="14dp"
+        android:paddingBottom="14dp"
+        android:paddingStart="36dp"
+        android:paddingEnd="36dp"
+        android:drawablePadding="14dp"
+        android:text="@string/txt_sign_up_email"
+        android:fontFamily="@font/poppins_medium"
+        android:layout_below="@id/btn_facebook"
+        android:layout_centerHorizontal="true"
+        android:textAllCaps="false"/>
 
+    <LinearLayout
+        android:id="@+id/layout_social_media"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="32dp"
+        android:layout_below="@+id/btn_sign_up_email" >
 
+        <ImageButton
+            android:id="@+id/btn_google_plus"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_google_plus"
+            android:background="@null" />
 
+        <ImageButton
+            android:id="@+id/btn_twitter"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_twitter"
+            android:layout_marginStart="24dp"
+            android:background="@null"/>
+
+        <ImageButton
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:src="@drawable/ic_linkedin"
+            android:layout_marginStart="24dp"
+            android:background="@null" />
+    </LinearLayout>
+
+    <Button
+        style="@style/ButtonLink"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:fontFamily="@font/poppins_medium"
+        android:textColor="@color/white"
+        android:text="@string/txt_sign_up_to_login"/>
 </RelativeLayout>
