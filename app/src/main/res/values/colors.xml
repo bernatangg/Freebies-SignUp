@@ -7,6 +7,10 @@
     <color name="btnWhiteDisabled">#A3AF9E</color>
     <color name="btnWhitePressed">#F2ECFF</color>
 
+    <color name="btnBlueDisabled">#ABA9BB</color>
+    <color name="btnBluePressed">#006994</color>
+    <color name="tvBlue">#B1CDFF</color>
+
     <color name="white">#FFFFFF</color>
 
 </resources>

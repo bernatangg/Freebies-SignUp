@@ -4,10 +4,17 @@
     <string name="line_white">Line White</string>
     <string name="sign_up">Sign Up</string>
     <string name="login">Login</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">Email</string>
+    <string name="password">Password</string>
 
     <string name="txt_splash_screen">Enjoy your vacation with us</string>
     <string name="txt_sign_up">I\'ts easier to sign up now</string>
     <string name="txt_facebook">Continue with Facebook</string>
     <string name="txt_sign_up_email">I\'ll use email or phone</string>
     <string name="txt_sign_up_to_login">Already have account? Login</string>
+    <string name="txt_enjoy">Enjoy our application</string>
+    <string name="txt_using_mobile">Use mobile number</string>
+    <string name="txt_forgot_password">Forgot your password?</string>
+    <string name="txt_new_user">New user? Create an account</string>
 </resources>
