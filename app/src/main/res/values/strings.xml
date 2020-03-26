@@ -17,4 +17,6 @@
     <string name="txt_using_mobile">Use mobile number</string>
     <string name="txt_forgot_password">Forgot your password?</string>
     <string name="txt_new_user">New user? Create an account</string>
+
+    <string name="txt_hello_register">Hello, \n Welcome</string>
 </resources>
